@@ -1,0 +1,21 @@
+body, .form-control, .form-select, .dropdown-item, .dselect-no-results {
+    font-size: 0.9rem!important;
+}
+
+.content {
+    padding: 20px 10px 10px 10px!important;
+}
+
+.alert {
+    padding: .5rem 1rem!important;
+}
+
+
+
+/* app.css manipulation */
+.dropdown .dropdown-menu.show {
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-name: none;
+    animation-name: none;
+}
